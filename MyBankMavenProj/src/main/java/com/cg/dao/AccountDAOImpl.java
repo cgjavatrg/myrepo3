@@ -9,7 +9,7 @@ import com.cg.util.DbUtils;
 import java.sql.*;
 public class AccountDAOImpl implements AccountDAO{
 
-	private Connection con;
+	private Connection con; // this is connection
 	private PreparedStatement pst;
 	
 	private void makeConnection()
