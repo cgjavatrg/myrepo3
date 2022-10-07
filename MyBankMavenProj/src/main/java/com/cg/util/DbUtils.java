@@ -24,7 +24,7 @@ public class DbUtils {
 		String user = props.getProperty("db.user");
 		String pwd = props.getProperty("db.password");
 		
-			  Class.forName(driver);
+		//	  Class.forName(driver);
 		       conn= DriverManager.getConnection(url,user,pwd);
 		      System.out.println("Connected");
 		    
